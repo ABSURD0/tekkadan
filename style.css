@@ -1096,6 +1096,11 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 80%;
   }
 
+  @media screen and (max-width: 800px){
+    .footer-icon-image:not(:last-child){
+        margin-right: 2rem;
+    }
+  }
 
 
 
